@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Students Gradesheet Javascript Application</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/gradesheet.css">
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+  <div class="grade-container">
+        <img src="images/banner.png" width="700" height="150" alt="Students Holding Books">
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Score</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>English</td>
+                    <td><input type="number" id="txtEnglish" min="0" max="100" onchange="calculateGrade('txtEnglish', 'gradeEnglish')"></td>
+                    <td><input type="text" id="gradeEnglish" readonly></td>
+                </tr>
+                <tr>
+                    <td>Maths</td>
+                    <td><input type="number" id="txtMaths" min="0" max="100" onchange="calculateGrade('txtMaths', 'gradeMaths')"></td>
+                    <td><input type="text" id="gradeMaths" readonly></td>
+                </tr>
+                <tr>
+                    <td>Chemistry</td>
+                    <td><input type="number" id="txtChemistry" min="0" max="100" onchange="calculateGrade('txtChemistry', 'gradeChemistry')"></td>
+                    <td><input type="text" id="gradeChemistry" readonly></td>
+                </tr>
+                <tr>
+                    <td>Biology</td>
+                    <td><input type="number" id="txtBiology" min="0" max="100" onchange="calculateGrade('txtBiology', 'gradeBiology')"></td>
+                    <td><input type="text" id="gradeBiology" readonly></td>
+                </tr>
+                <tr>
+                    <td>French</td>
+                    <td><input type="number" id="txtFrench" min="0" max="100" onchange="calculateGrade('txtFrench', 'gradeFrench')"></td>
+                    <td><input type="text" id="gradeFrench" readonly></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <button type="button" onclick="calculateResults()">Get Result <img src="images/chart.png" width="20" height="20" alt="chart"></button>
+        
+        <div class="result-section">
+                 
+            <p id="pTotal1"><strong>Total:</strong><span id='pTotal'>0</span></p>
+            
+            <p><strong>Average:</strong><span id="pAverage">0</span></p>
+            
+            <p id="pRemarks">Remarks: Enter scores and click "Get Result"</p>
+        </div>
+    </div>
+
+<!--Call My External Javascript-->
+<script src="js/gradesheet.js"></script>
+
+</body>
+</html>
