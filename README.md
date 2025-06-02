@@ -2,7 +2,12 @@
 
 A JavaScript-based grading system that automatically calculates letter grades and performance remarks based on user input.
 
-Screenshot https://github.com/velveteen2020/gradesheet/images/
+Screenshot https://github.com/velveteen2020/gradesheet/images/MacBookPro.jpeg
+           
+           https://github.com/velveteen2020/gradesheet/images/iPad.jpeg
+
+           https://github.com/velveteen2020/gradesheet/images/iPhone12Pro.jpeg
+
 
 ## 🚀 Features
 - **Auto-Grade Calculation**: Converts scores to grades (A-F) instantly.
