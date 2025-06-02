@@ -23,3 +23,36 @@ Screenshot https://github.com/velveteen2020/gradesheet/images/MacBookPro.jpeg
 1. Clone the repository:
    ```bash
    git clone https://github.com/velveteen2020/gradesheet.git
+
+2. Open index.html in any modern browser.
+
+🎯 Usage
+Enter a score (0-100 ) in the input field.
+
+Click "Get Result" to see:
+
+Letter Grade
+
+Total Score
+
+Average Score
+
+Pass/Fail Remark
+
+📝 Grading Scale
+Score Range Grade Remark
+≥ 70  A  🎉 Excellent!
+60-69 B  👍 Good
+50-59 C  🙂 Average
+45-49 D  😐 Needs Work
+40-44 E  😕 Poor
+< 40  F  😢 Failed
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first.
+
+📜 License
+MIT
+
+Developed by Adegoke Adefelu
+📧 Contact: velveteensolutions@gmail.com
+🔗 GitHub: @velveteen2020
